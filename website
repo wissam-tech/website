@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="WISSAM TECH - دليلك المبسط إلى الهواتف والحواسيب والتطبيقات">
+<title>WISSAM TECH | عالم التقنية</title>
+<style>
+:root{--bg:#090909;--panel:#171717;--gold:#d8ad55;--light:#f1d28b;--text:#f5f1e8;--muted:#b4ada1;--line:rgba(216,173,85,.25)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.9}
+a{color:inherit;text-decoration:none}.container{width:min(1050px,90%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#090909f2;border-bottom:1px solid var(--line)}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.logo{font-weight:900;font-size:1.3rem;direction:ltr}.logo span,h1 span,.section-title span{color:var(--gold)}
+nav{display:flex;gap:16px;flex-wrap:wrap}nav a{color:var(--muted);font-size:.9rem}nav a:hover{color:var(--light)}
+.hero{text-align:center;padding:95px 0;background:radial-gradient(ellipse at top,rgba(216,173,85,.18),transparent 55%)}
+.eyebrow{border:1px solid var(--line);border-radius:30px;padding:5px 15px;color:var(--light)}
+h1{font-size:clamp(2.5rem,7vw,4.5rem);line-height:1.3;margin:20px 0 8px}
+.hero p{max-width:680px;margin:0 auto 24px;color:var(--muted)}
+.btn{display:inline-block;background:var(--gold);color:#17130b;padding:9px 20px;border-radius:8px;font-weight:bold;transition:.2s}
+.btn:hover{background:var(--light)}
+.btn-outline{display:inline-block;background:transparent;color:var(--gold);border:1px solid var(--gold);padding:8px 19px;border-radius:8px;font-weight:bold;transition:.2s}
+.btn-outline:hover{background:rgba(216,173,85,.12);color:var(--light)}
+.btn-group{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+section{padding:65px 0}.section-title{text-align:center;margin-bottom:30px}.section-title h2{font-size:2rem;margin:0}
+.section-title p{color:var(--muted);margin:4px 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card,.topic,.about-box{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+.card:hover{border-color:var(--gold);transform:translateY(-4px);transition:.2s}
+.icon{font-size:2rem}.card h3,.topic h3{color:var(--light);margin:5px 0}
+.card p,.topic p,.topic li,.about-box p{color:var(--muted)}
+.card p{margin:0 0 14px}.topic{max-width:900px;margin:auto;padding:30px}
+.topic-section{border-top:1px solid var(--line)}.topic h3{font-size:1.4rem}
+.topic h4{color:var(--gold);margin:18px 0 4px}.topic ul{padding-right:22px}
+.topic li{padding:2px 0}.note{border-right:3px solid var(--gold);background:#d8ad5510;padding:10px 14px;margin-top:18px;border-radius:6px}
+.about{background:#10100e;border-block:1px solid var(--line)}.about-box{max-width:800px;margin:auto;text-align:center}
+.contact{text-align:center}.contact p{color:var(--muted)}
+footer{text-align:center;padding:20px;border-top:1px solid var(--line);color:var(--muted)}footer span{color:var(--gold)}
+@media(max-width:750px){.nav{flex-direction:column;padding:12px 0}nav{justify-content:center;gap:12px}.cards{grid-template-columns:1fr}.hero{padding:75px 0}.topic{padding:20px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#home">WISSAM <span>TECH</span></a>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#phones">الهواتف</a>
+      <a href="#computers">الحواسيب</a>
+      <a href="#apps">التطبيقات</a>
+      <a href="#about">من نحن</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="container">
+    <span class="eyebrow">المعرفة التقنية بأسلوب بسيط</span>
+    <h1>اكتشف عالم <span>التقنية</span></h1>
+    <p>مرحباً بك في WISSAM TECH، موقع تعليمي يأخذك في جولة للتعرّف على الهواتف الذكية والحواسيب والتطبيقات، بمعلومات واضحة ومفيدة.</p>
+    <a class="btn" href="#sections">ابدأ الاستكشاف</a>
+  </div>
+</section>
+
+<section id="sections">
+  <div class="container">
+    <div class="section-title">
+      <h2>أقسام <span>الموقع</span></h2>
+      <p>اختر موضوعاً لقراءة معلوماته</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="icon">📱</div>
+        <h3>الهواتف الذكية</h3>
+        <p>تعرف على الهاتف الذكي وأهم أجزائه ومواصفاته.</p>
+        <a class="btn" href="#phones">اقرأ الموضوع</a>
+      </article>
+      <article class="card">
+        <div class="icon">💻</div>
+        <h3>الحواسيب</h3>
+        <p>تعرف على أنواع الحواسيب ومكوناتها واستخداماتها.</p>
+        <a class="btn" href="#computers">اقرأ الموضوع</a>
+      </article>
+      <article class="card">
+        <div class="icon">🧩</div>
+        <h3>التطبيقات والبرامج</h3>
+        <p>تعرف على أنواع التطبيقات وفوائدها وكيفية استخدامها بأمان.</p>
+        <a class="btn" href="#apps">اقرأ الموضوع</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="topic-section" id="phones">
+  <div class="container">
+    <div class="section-title">
+      <h2>📱 موضوع عن <span>الهواتف الذكية</span></h2>
+      <p>أجهزة صغيرة تجمع الكثير من التقنيات</p>
+    </div>
+    <article class="topic">
+      <h3>ما الهاتف الذكي؟</h3>
+      <p>الهاتف الذكي جهاز إلكتروني محمول يُستخدم للمكالمات والرسائل والاتصال بالإنترنت وتشغيل التطبيقات والتقاط الصور والفيديو. وأصبح من أكثر الأجهزة استخداماً في الحياة اليومية.</p>
+      <h4>أهم أجزاء الهاتف الذكي</h4>
+      <ul>
+        <li><b>الشاشة:</b> تعرض الصور والنصوص وتتيح التفاعل باللمس.</li>
+        <li><b>المعالج:</b> ينفّذ العمليات ويشغّل التطبيقات.</li>
+        <li><b>الذاكرة العشوائية (RAM):</b> تساعد على تشغيل التطبيقات والتنقل بينها.</li>
+        <li><b>مساحة التخزين:</b> تحفظ الصور والفيديوهات والتطبيقات والملفات.</li>
+        <li><b>الكاميرا:</b> تلتقط الصور وتسجّل الفيديو.</li>
+        <li><b>البطارية:</b> تمد الهاتف بالطاقة اللازمة للعمل.</li>
+        <li><b>نظام التشغيل:</b> يدير الجهاز، ومن أمثلته Android وiOS.</li>
+      </ul>
+      <h4>كيف نختار هاتفاً مناسباً؟</h4>
+      <p>نقارن بين المعالج وجودة الشاشة وسعة التخزين وعمر البطارية والكاميرا والسعر. ويعتمد الاختيار على حاجة المستخدم وطريقة استعماله للجهاز.</p>
+      <div class="note">معلومة: جودة الصورة لا تعتمد على عدد الميغابكسلات فقط، بل على المستشعر والعدسة ومعالجة الصور أيضاً.</div>
+    </article>
+  </div>
+</section>
+
+<section class="topic-section" id="computers">
+  <div class="container">
+    <div class="section-title">
+      <h2>💻 موضوع عن <span>الحواسيب</span></h2>
+      <p>أجهزة لمعالجة المعلومات وإنجاز الأعمال</p>
+    </div>
+    <article class="topic">
+      <h3>ما الحاسوب؟</h3>
+      <p>الحاسوب جهاز إلكتروني يستقبل البيانات ويعالجها وفق تعليمات محددة، ثم يعرض النتائج أو يخزنها. ويُستخدم في التعليم والطب والهندسة والتصميم والأعمال.</p>
+      <h4>أنواع الحواسيب</h4>
+      <ul>
+        <li><b>الحاسوب المكتبي:</b> يستخدم غالباً في المنازل والمدارس والمكاتب.</li>
+        <li><b>الحاسوب المحمول:</b> جهاز قابل للحمل يحتوي عادةً على شاشة ولوحة مفاتيح وبطارية.</li>
+        <li><b>الحاسوب اللوحي:</b> جهاز خفيف يعتمد غالباً على شاشة اللمس.</li>
+        <li><b>الخوادم:</b> حواسيب تقدم خدمات وموارد لأجهزة أخرى عبر الشبكة.</li>
+      </ul>
+      <h4>المكوّنات الأساسية</h4>
+      <ul>
+        <li><b>وحدة المعالجة المركزية (CPU):</b> تنفّذ التعليمات والعمليات.</li>
+        <li><b>الذاكرة العشوائية (RAM):</b> تخزن مؤقتاً البيانات المستخدمة أثناء العمل.</li>
+        <li><b>وحدة التخزين:</b> تحفظ النظام والبرامج والملفات، مثل SSD وHDD.</li>
+        <li><b>اللوحة الأم:</b> تربط مكوّنات الحاسوب ببعضها.</li>
+        <li><b>الشاشة ولوحة المفاتيح والفأرة:</b> تساعد على إدخال المعلومات وعرض النتائج.</li>
+      </ul>
+      <h4>أهمية الحاسوب</h4>
+      <p>يساعد في كتابة البحوث وإعداد العروض التعليمية وتحليل البيانات وتصميم الصور والبرامج، كما يسهّل التواصل والوصول إلى المعلومات.</p>
+      <div class="note">معلومة: وحدات SSD أسرع عادةً من HDD في قراءة البيانات وتشغيل النظام.</div>
+    </article>
+  </div>
+</section>
+
+<section class="topic-section" id="apps">
+  <div class="container">
+    <div class="section-title">
+      <h2>🧩 موضوع عن <span>التطبيقات والبرامج</span></h2>
+      <p>أدوات رقمية تجعل الأجهزة أكثر فائدة</p>
+    </div>
+    <article class="topic">
+      <h3>ما التطبيقات والبرامج؟</h3>
+      <p>التطبيق أو البرنامج مجموعة من التعليمات صُممت لتنفيذ مهام معينة على الهاتف أو الحاسوب. توجد تطبيقات للتعلم والتواصل والترفيه والرسم والكتابة وتنظيم الوقت.</p>
+      <h4>أنواع التطبيقات</h4>
+      <ul>
+        <li><b>التطبيقات التعليمية:</b> تساعد على تعلم اللغات ومراجعة الدروس وحضور المحاضرات.</li>
+        <li><b>تطبيقات التواصل:</b> تتيح إرسال الرسائل وإجراء المكالمات ومشاركة الملفات.</li>
+        <li><b>تطبيقات الإنتاجية:</b> تستخدم لكتابة المستندات وإنشاء الجداول والعروض.</li>
+        <li><b>تطبيقات التصميم:</b> تساعد على تعديل الصور وتصميم الرسومات.</li>
+        <li><b>تطبيقات الترفيه:</b> تشمل الألعاب ومشغلات الفيديو والصوت.</li>
+      </ul>
+      <h4>نصائح لاستخدام التطبيقات بأمان</h4>
+      <ul>
+        <li>حمّل التطبيقات من المتاجر والمصادر الرسمية الموثوقة.</li>
+        <li>راجع الأذونات ولا تمنح التطبيق صلاحيات لا يحتاجها.</li>
+        <li>حدّث التطبيقات ونظام التشغيل بانتظام.</li>
+        <li>استخدم كلمات مرور قوية ولا تشارك معلوماتك الشخصية مع جهات غير موثوقة.</li>
+        <li>تحقق من اسم المطوّر والتقييمات قبل تثبيت التطبيق.</li>
+      </ul>
+      <div class="note">معلومة: التطبيق الجيد هو الموثوق والمناسب لحاجة المستخدم ويحترم خصوصيته.</div>
+    </article>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-title">
+      <h2>من <span>نحن؟</span></h2>
+      <p>التقنية ببساطة ووضوح</p>
+    </div>
+    <div class="about-box">
+      <h3>أهلاً بك في WISSAM TECH</h3>
+      <p>موقع تعليمي يهدف إلى تبسيط المعلومات التقنية للطلاب والمهتمين بالتكنولوجيا، من خلال موضوعات عن الأجهزة والحواسيب والتطبيقات بلغة واضحة وسهلة.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2>تواصل <span>معنا</span></h2>
+      <p>يسعدنا استقبال استفساراتك ومقترحاتك عبر البريد الإلكتروني</p>
+    </div>
+    <div class="btn-group">
+      <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=draven.wissam@gmail.com" target="_blank" rel="noopener">✉️ تواصل معنا عبر Gmail</a>
+      <a class="btn-outline" href="#home">العودة إلى الأعلى</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer>© 2026 <span>WISSAM TECH</span> — جميع الحقوق محفوظة</footer>
+</body>
+</html>
